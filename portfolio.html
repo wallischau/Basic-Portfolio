@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <!-- portfolio html -->
+<!-- Author: Wallis Chau -->
+<!-- Date: 7/19/17 -->
+<!-- Description: portfolio page, interest activities -->
 <html>
 <head>
 	<title>portfolio</title>
@@ -12,44 +15,54 @@
 			<h1>Wallis Chau</h1>
 		</div>
 		<nav class="menu">
+			<!-- list of links to other pages in this project -->
 			<a href="index.html">About</a>
 			<a href="portfolio.html">Portfolio</a>
 			<a href="contact.html">Contact</a>
 		</nav>
 	</header>
+	<!-- main area includes left and right panels -->
 	<div class="main_area">
 		<section class="left_panel">
-			<article class="portfolio">
-				<header>
+			<article class="panel_topic">
+				<header class="panel_heading">
 					<h2>Portfolio</h2>
 				</header>
-				<hr>
+				<div class="divider"></div>
 				<div class="detail">
-					<div class="activity">
-						<img src="assets/images/scenary1.jpg" alt="activity 1">
-						<label>Activity 1</label>
-					</div>
-					<div>
-						<img src="assets/images/scenary2.jpg" alt="activity 2">
-						<label>Activity 2</label>
-					</div>
-					<dir>
-						<img src="assets/images/sport1.jpg" alt="activity 3">
-						<label>Activity 3</label>
-					</dir>
-					<dir>
-						<img src="assets/images/sport3.jpg" alt="activity 4">
-						<label>Activity 4</label>
-					</dir>
-					<dir>
-						<img src="assets/images/something.jpg" alt="activity 5">
-						<label>Activity 4</label>
-					</dir>
+					<!-- list of activities -->
+					<ul>
+					<li class="activity">
+						<span class="tooltiptext">Piano</span>
+						<img src="assets/images/piano.jpg" alt="music">
+						<label>Music</label>
+					</li>
+					<li class="activity">
+						<span class="tooltiptext">Catan</span>
+						<img src="assets/images/catan.jpg" alt="board games">
+						<label>Board Games</label>
+					</li>
+					<li class="activity">
+						<span class="tooltiptext">Strimko</span>
+						<img src="assets/images/strimko.jpg" alt="logic puzzles">
+						<label>Logic Puzzles</label>
+					</li>
+					<li class="activity">
+						<span class="tooltiptext">Table tennis</span>
+						<img src="assets/images/pingpong.jpg" alt="sports">
+						<label>Sports</label>
+					</li>
+					<li class="activity">
+						<span class="tooltiptext">Judo</span>
+						<img src="assets/images/judo.jpg" alt="martial arts">
+						<label>Martial Arts</label>
+					</li>
+					</ul>
 				</div>
 			</article>			
 		</section>
 		<aside class="right_panel">
-			<header>
+			<header class="panel_heading">
 				<h3>Connect with Me</h3>
 			</header>
 			<div class="divider"></div>
